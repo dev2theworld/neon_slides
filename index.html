@@ -3,12 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/webslides.css">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Neon Slides</title>
 </head>
 <body>
-  
+  <main role="main">
+    <article id="webslides" class="horizontal">
+      <section class="background" style="background-image: url('./img/1.jpg')"></section>
+      <section class="background" style="background-image: url('./img/2.jpg')">
+        <div class="wrap">
+          <h1 class="color-white">When all great things were made...</h1>
+        </div>
+      </section>
+    </article>
+  </main>
 
   <script src="./js/webslides.js"></script>
+  <script>window.ws = new WebSlides();</script>
 </body>
 </html>
